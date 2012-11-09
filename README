@@ -1,0 +1,120 @@
+== COMPILE==
+
+gcc -O2 -Wall -o dumpservermet dumpservermet.c
+
+== EXAMPLE ==
+
+$ ./dumpservermet server.met
+server: #1
+	address: 88.191.81.111:7111
+	tags count: 18
+		tag 1, type = 2
+			name(1): {0x01}
+			string(12): PEERATES.NET
+		tag 2, type = 2
+			name(1): {0x01}
+			string(12): PEERATES.NET
+		tag 3, type = 2
+			name(1): {0x0B}
+			string(23): http://edk.peerates.net
+		tag 4, type = 2
+			name(1): {0x0B}
+			string(23): http://edk.peerates.net
+		tag 5, type = 3
+			name(1): {0x0D}
+			uint32_t: 0
+		tag 6, type = 3
+			name(1): {0x0E}
+			uint32_t: 0
+		tag 7, type = 3
+			name(5): users
+			uint32_t: 101295
+		tag 8, type = 3
+			name(5): files
+			uint32_t: 22036
+		tag 9, type = 3
+			name(1): {0x0C}
+			uint32_t: 73
+		tag 10, type = 3
+			name(1): {0x90}
+			uint32_t: 0
+		tag 11, type = 3
+			name(1): {0x87}
+			uint32_t: 300000
+		tag 12, type = 3
+			name(1): {0x88}
+			uint32_t: 9000
+		tag 13, type = 3
+			name(1): {0x89}
+			uint32_t: 9000
+		tag 14, type = 2
+			name(1): {0x91}
+			string(5): 17.15
+		tag 15, type = 2
+			name(1): {0x91}
+			string(5): 17.15
+		tag 16, type = 3
+			name(1): {0x92}
+			uint32_t: 6139
+		tag 17, type = 3
+			name(1): {0x94}
+			uint32_t: 0
+		tag 18, type = 8
+			name(1): {0x97}
+			uint16_t: 7111
+server: #2
+	address: 193.105.134.171:7111
+	tags count: 17
+		tag 1, type = 2
+			name(1): {0x01}
+			string(26): !!! Sharing-Devils No2 !!!
+		tag 2, type = 2
+			name(1): {0x01}
+			string(26): !!! Sharing-Devils No2 !!!
+		tag 3, type = 2
+			name(1): {0x0B}
+			string(30): !!! www.sharing-devils.org !!!
+		tag 4, type = 2
+			name(1): {0x0B}
+			string(30): !!! www.sharing-devils.org !!!
+		tag 5, type = 3
+			name(1): {0x0D}
+			uint32_t: 0
+		tag 6, type = 3
+			name(1): {0x0E}
+			uint32_t: 0
+		tag 7, type = 3
+			name(5): users
+			uint32_t: 10594
+		tag 8, type = 3
+			name(5): files
+			uint32_t: 3598497
+		tag 9, type = 3
+			name(1): {0x0C}
+			uint32_t: 93
+		tag 10, type = 3
+			name(1): {0x90}
+			uint32_t: 0
+		tag 11, type = 3
+			name(1): {0x87}
+			uint32_t: 2000000
+		tag 12, type = 3
+			name(1): {0x88}
+			uint32_t: 7500
+		tag 13, type = 3
+			name(1): {0x89}
+			uint32_t: 10000
+		tag 14, type = 2
+			name(1): {0x91}
+			string(5): 17.15
+		tag 15, type = 2
+			name(1): {0x91}
+			string(5): 17.15
+		tag 16, type = 3
+			name(1): {0x92}
+			uint32_t: 6139
+		tag 17, type = 3
+			name(1): {0x94}
+			uint32_t: 0
+
+
