@@ -1,14 +1,14 @@
 /**
- * 作者：greensea (gs@bbxy.net)
- * 时间：2011年12月25日
- * 授权：BSD Lisence
+ * 作者 Author: greensea (gs@bbxy.net)
+ * 时间 Date:2011-12-25
+ * 授权 License: BSD License
  */
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
-
+#include <libgen.h>
 
 #ifndef inet_ntoa
 const char* inet_ntoa(uint32_t ip) {
